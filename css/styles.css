@@ -284,13 +284,19 @@ a {
 }
 /* HEADER */
 .ba-header {
-  padding-top: 48px;
   position: relative;
   color: #fff;
   height: 100%;
   margin: 0 auto;
 }
 .ba-header__top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #FFF;
+  z-index: 1002;
+  border-bottom: 1px solid #e4e6eb;
+  padding: 50px 0 50px 0;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -331,7 +337,7 @@ a {
   position: relative;
   border-top: 1px solid #e4e6eb;
   border-bottom: 1px solid #e4e6eb;
-  margin-top: 50px;
+  margin-top: 150px;
   width: 100%;
 }
 .ba-header__main--divider {

@@ -112,12 +112,18 @@ a {
 /* HEADER */
 
 .ba-header {
-    padding-top: 48px;
     position: relative;
     color: #fff;
     height: 100%;
     margin: 0 auto;
     &__top {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: #FFF;
+        z-index: 1002;
+        border-bottom: 1px solid @light-grey-color;
+        padding: 50px 0 50px 0;
         .display-flex();
         .flex-options();
     }
@@ -148,7 +154,7 @@ a {
         position: relative;
         border-top: 1px solid @light-grey-color;
         border-bottom: 1px solid @light-grey-color;
-        margin-top: 50px;
+        margin-top: 150px;
         width: 100%;
         &--divider {
             float: left;
