@@ -1,0 +1,1 @@
+Exam work2. Using JS, jQuery, SlickSlider.
